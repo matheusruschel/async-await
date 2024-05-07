@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE776902BEA73B700EE3E9B /* MTG_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7768F2BEA73B700EE3E9B /* MTG_LearningApp.swift */; };
+		2CE776922BEA73B700EE3E9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE776912BEA73B700EE3E9B /* ContentView.swift */; };
+		2CE776942BEA73B800EE3E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE776932BEA73B800EE3E9B /* Assets.xcassets */; };
+		2CE776972BEA73B800EE3E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE776962BEA73B800EE3E9B /* Preview Assets.xcassets */; };
+		2CE776A12BEA73B800EE3E9B /* MTG_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE776A02BEA73B800EE3E9B /* MTG_LearningTests.swift */; };
+		2CE776AB2BEA73B800EE3E9B /* MTG_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE776AA2BEA73B800EE3E9B /* MTG_LearningUITests.swift */; };
+		2CE776AD2BEA73B800EE3E9B /* MTG_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE776AC2BEA73B800EE3E9B /* MTG_LearningUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE7769D2BEA73B800EE3E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE776842BEA73B700EE3E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE7768B2BEA73B700EE3E9B;
+			remoteInfo = "MTG-Learning";
+		};
+		2CE776A72BEA73B800EE3E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE776842BEA73B700EE3E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE7768B2BEA73B700EE3E9B;
+			remoteInfo = "MTG-Learning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CE7768C2BEA73B700EE3E9B /* MTG-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE7768F2BEA73B700EE3E9B /* MTG_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_LearningApp.swift; sourceTree = "<group>"; };
+		2CE776912BEA73B700EE3E9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CE776932BEA73B800EE3E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE776962BEA73B800EE3E9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CE7769C2BEA73B800EE3E9B /* MTG-LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTG-LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE776A02BEA73B800EE3E9B /* MTG_LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_LearningTests.swift; sourceTree = "<group>"; };
+		2CE776A62BEA73B800EE3E9B /* MTG-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTG-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE776AA2BEA73B800EE3E9B /* MTG_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_LearningUITests.swift; sourceTree = "<group>"; };
+		2CE776AC2BEA73B800EE3E9B /* MTG_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE776892BEA73B700EE3E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE776992BEA73B800EE3E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE776A32BEA73B800EE3E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE776832BEA73B700EE3E9B = {
+			isa = PBXGroup;
+			children = (
+				2CE7768E2BEA73B700EE3E9B /* MTG-Learning */,
+				2CE7769F2BEA73B800EE3E9B /* MTG-LearningTests */,
+				2CE776A92BEA73B800EE3E9B /* MTG-LearningUITests */,
+				2CE7768D2BEA73B700EE3E9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE7768D2BEA73B700EE3E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE7768C2BEA73B700EE3E9B /* MTG-Learning.app */,
+				2CE7769C2BEA73B800EE3E9B /* MTG-LearningTests.xctest */,
+				2CE776A62BEA73B800EE3E9B /* MTG-LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE7768E2BEA73B700EE3E9B /* MTG-Learning */ = {
+			isa = PBXGroup;
+			children = (
+				2CE7768F2BEA73B700EE3E9B /* MTG_LearningApp.swift */,
+				2CE776912BEA73B700EE3E9B /* ContentView.swift */,
+				2CE776932BEA73B800EE3E9B /* Assets.xcassets */,
+				2CE776952BEA73B800EE3E9B /* Preview Content */,
+			);
+			path = "MTG-Learning";
+			sourceTree = "<group>";
+		};
+		2CE776952BEA73B800EE3E9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CE776962BEA73B800EE3E9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CE7769F2BEA73B800EE3E9B /* MTG-LearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE776A02BEA73B800EE3E9B /* MTG_LearningTests.swift */,
+			);
+			path = "MTG-LearningTests";
+			sourceTree = "<group>";
+		};
+		2CE776A92BEA73B800EE3E9B /* MTG-LearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE776AA2BEA73B800EE3E9B /* MTG_LearningUITests.swift */,
+				2CE776AC2BEA73B800EE3E9B /* MTG_LearningUITestsLaunchTests.swift */,
+			);
+			path = "MTG-LearningUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE7768B2BEA73B700EE3E9B /* MTG-Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE776B02BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-Learning" */;
+			buildPhases = (
+				2CE776882BEA73B700EE3E9B /* Sources */,
+				2CE776892BEA73B700EE3E9B /* Frameworks */,
+				2CE7768A2BEA73B700EE3E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTG-Learning";
+			productName = "MTG-Learning";
+			productReference = 2CE7768C2BEA73B700EE3E9B /* MTG-Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE7769B2BEA73B800EE3E9B /* MTG-LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE776B32BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-LearningTests" */;
+			buildPhases = (
+				2CE776982BEA73B800EE3E9B /* Sources */,
+				2CE776992BEA73B800EE3E9B /* Frameworks */,
+				2CE7769A2BEA73B800EE3E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE7769E2BEA73B800EE3E9B /* PBXTargetDependency */,
+			);
+			name = "MTG-LearningTests";
+			productName = "MTG-LearningTests";
+			productReference = 2CE7769C2BEA73B800EE3E9B /* MTG-LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CE776A52BEA73B800EE3E9B /* MTG-LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE776B62BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-LearningUITests" */;
+			buildPhases = (
+				2CE776A22BEA73B800EE3E9B /* Sources */,
+				2CE776A32BEA73B800EE3E9B /* Frameworks */,
+				2CE776A42BEA73B800EE3E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE776A82BEA73B800EE3E9B /* PBXTargetDependency */,
+			);
+			name = "MTG-LearningUITests";
+			productName = "MTG-LearningUITests";
+			productReference = 2CE776A62BEA73B800EE3E9B /* MTG-LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE776842BEA73B700EE3E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2CE7768B2BEA73B700EE3E9B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2CE7769B2BEA73B800EE3E9B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2CE7768B2BEA73B700EE3E9B;
+					};
+					2CE776A52BEA73B800EE3E9B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2CE7768B2BEA73B700EE3E9B;
+					};
+				};
+			};
+			buildConfigurationList = 2CE776872BEA73B700EE3E9B /* Build configuration list for PBXProject "MTG-Learning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE776832BEA73B700EE3E9B;
+			productRefGroup = 2CE7768D2BEA73B700EE3E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE7768B2BEA73B700EE3E9B /* MTG-Learning */,
+				2CE7769B2BEA73B800EE3E9B /* MTG-LearningTests */,
+				2CE776A52BEA73B800EE3E9B /* MTG-LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE7768A2BEA73B700EE3E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE776972BEA73B800EE3E9B /* Preview Assets.xcassets in Resources */,
+				2CE776942BEA73B800EE3E9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE7769A2BEA73B800EE3E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE776A42BEA73B800EE3E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE776882BEA73B700EE3E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE776922BEA73B700EE3E9B /* ContentView.swift in Sources */,
+				2CE776902BEA73B700EE3E9B /* MTG_LearningApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE776982BEA73B800EE3E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE776A12BEA73B800EE3E9B /* MTG_LearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE776A22BEA73B800EE3E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE776AB2BEA73B800EE3E9B /* MTG_LearningUITests.swift in Sources */,
+				2CE776AD2BEA73B800EE3E9B /* MTG_LearningUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE7769E2BEA73B800EE3E9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE7768B2BEA73B700EE3E9B /* MTG-Learning */;
+			targetProxy = 2CE7769D2BEA73B800EE3E9B /* PBXContainerItemProxy */;
+		};
+		2CE776A82BEA73B800EE3E9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE7768B2BEA73B700EE3E9B /* MTG-Learning */;
+			targetProxy = 2CE776A72BEA73B800EE3E9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CE776AE2BEA73B800EE3E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE776AF2BEA73B800EE3E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE776B12BEA73B800EE3E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTG-Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE776B22BEA73B800EE3E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTG-Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CE776B42BEA73B800EE3E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG-Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTG-Learning";
+			};
+			name = Debug;
+		};
+		2CE776B52BEA73B800EE3E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG-Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTG-Learning";
+			};
+			name = Release;
+		};
+		2CE776B72BEA73B800EE3E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MTG-Learning";
+			};
+			name = Debug;
+		};
+		2CE776B82BEA73B800EE3E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9BMV4WXD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtglearning.MTG-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MTG-Learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE776872BEA73B700EE3E9B /* Build configuration list for PBXProject "MTG-Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE776AE2BEA73B800EE3E9B /* Debug */,
+				2CE776AF2BEA73B800EE3E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE776B02BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE776B12BEA73B800EE3E9B /* Debug */,
+				2CE776B22BEA73B800EE3E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE776B32BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE776B42BEA73B800EE3E9B /* Debug */,
+				2CE776B52BEA73B800EE3E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE776B62BEA73B800EE3E9B /* Build configuration list for PBXNativeTarget "MTG-LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE776B72BEA73B800EE3E9B /* Debug */,
+				2CE776B82BEA73B800EE3E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE776842BEA73B700EE3E9B /* Project object */;
+}
